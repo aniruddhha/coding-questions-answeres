@@ -55,6 +55,7 @@ class SolutionSet1 {
         //Write a function for repeating given string n times (if language supports infix, it must be infix)
         infix fun String.repeatN(n: Int) = this.repeat(n)
         println("hi".repeatN(10))
+        println("hi" repeatN 10)
     }
 
     fun q7() {
