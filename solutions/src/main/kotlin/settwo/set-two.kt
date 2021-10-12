@@ -15,4 +15,9 @@ class SolutionSet2 {
             arr2 =intArrayOf(3, 4, 5)
         )
     }
+
+    fun q2() {
+        // Write a function to find common elements from 2 arrays. input 2 arrays, output array of common elements
+
+    }
 }

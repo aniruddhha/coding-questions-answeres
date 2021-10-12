@@ -77,7 +77,7 @@ class SolutionSet1 {
     }
 
     fun q9() {
-        // Write code for explaining traling lambdas can be taken out of parenthesis
+        // Write code for explaining trailing lambdas can be taken out of parenthesis
 
         fun myDt(num: Int, fn: (Int) -> Unit) {
             fn(num)
@@ -106,7 +106,7 @@ class SolutionSet1 {
 
         // change type of float to int
 
-        val flt = 10.56f
+        val flt: Float = 10.56f
         val int = flt.toInt()
         println(int)
     }
@@ -119,10 +119,10 @@ class SolutionSet1 {
     }
 
     fun q13() {
-        //write a funtion to check type of given argument ( must be inline if supports)
+        //write a function to check type of given argument ( must be inline if supports)
 
         val checkType: (prm: Any) -> String = {
-            when (it) {
+           when (it) {
                 is Int -> "Integer"
                 is Float -> "Float"
                 else -> "Bad Type"
@@ -199,6 +199,8 @@ class SolutionSet1 {
     }
 
     fun q20() {
+        // Write a program which uses all operators for 2 given numbers
+
         var i = 10
         var j = 20
 
